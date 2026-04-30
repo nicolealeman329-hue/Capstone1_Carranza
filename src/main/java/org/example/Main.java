@@ -56,13 +56,13 @@ public class Main {
 
     public static void addDeposit(Scanner scanner) {
         //user puts in description
-        System.out.print("Description: ");
+        System.out.print("Enter the description please: ");
         String desc = scanner.nextLine();
 
-        System.out.print("Vendor: ");
+        System.out.print("Enter the vendor please: ");
         String vendor = scanner.nextLine();
         //makes it into a number
-        System.out.print("Amount: ");
+        System.out.print("Enter the amount please: ");
         double amount = Double.parseDouble(scanner.nextLine());
 //YAYY this is where a transaction object is made
         Transaction t = new Transaction(
